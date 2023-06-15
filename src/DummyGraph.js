@@ -59,7 +59,7 @@ const DummyGraph = () => {
   };
 
   return (
-    <div style={{ padding: '5rem 0', maxWidth: '100rem' }}>
+    <div style={{ padding: '5rem 0', width: '100%', maxWidth: '100rem' }}>
       <ApexCharts options={options} series={seriesData} type="line" height={350} />
     </div>
   );
